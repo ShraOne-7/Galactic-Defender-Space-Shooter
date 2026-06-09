@@ -24,10 +24,7 @@ Add your screenshot here:
 ```
 
 ### Gameplay
-```md
-![Gameplay]((https://github.com/ShraOne-7/Galactic-Defender-Space-Shooter/blob/main/Gameplay.png?raw=true)
-)
-```
+https://github.com/ShraOne-7/Galactic-Defender-Space-Shooter/blob/dd4d3f1df0feb2dc0dae1ff9a8131bc4c13dbb66/Gameplay.png
 
 ### Ship Selection
 ```md
