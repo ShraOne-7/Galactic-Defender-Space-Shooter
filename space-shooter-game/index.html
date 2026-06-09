@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Shooter - Rogue Hangar Edition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="game-container">
+    <div class="screen-filter"></div>
+    <div id="critical-hull-filter" class="critical-hull-filter"></div>
+
+    <div id="countdown-overlay" class="countdown-overlay hidden">
+      <h1 id="countdown-text">3</h1>
+    </div>
+
+    <div id="achievement-toast" class="achievement-toast hidden">
+      <div class="toast-icon">🏆</div>
+      <div class="toast-body">
+        <div class="toast-title">SYSTEM EVENT</div>
+        <div id="toast-desc" class="toast-desc">MISSION ENGAGED</div>
+      </div>
+    </div>
+
+    <div class="hud-container">
+      <div class="hud-left-blocks">
+        <div id="score-board" class="hud-text text-glow">SCORE: 0</div>
+        <div id="high-score" class="hud-text gold-glow">HI-SCORE: 0</div>
+      </div>
+
+      <div id="combo-hud" class="combo-panel hidden">
+        <span id="combo-multiplier">1.0x</span>
+        <span class="combo-lbl">COMBO</span>
+      </div>
+
+      <div class="hud-center-blocks">
+        <div id="weapon-display" class="hud-text weapon-glow">WEAPON: BASIC BLASTER</div>
+        <div id="hud-credits" class="hud-text credit-glow">CREDITS: 0 GC</div>
+      </div>
+      
+      <div class="control-group">
+        <div class="shield-container">
+          <span class="shield-label">SHIELD</span>
+          <div id="shield-wrapper" class="shield-bar-wrapper">
+            <div id="shield-fill" class="shield-bar-fill"></div>
+          </div>
+        </div>
+        
+        <button id="hud-mute-btn" class="hud-action-btn mute-accent">🎵 AUDIO ON</button>
+        <button id="hud-fullscreen-btn" class="hud-action-btn">📺 FULLSCREEN</button>
+        <button id="hud-pause-btn" class="hud-action-btn pause-accent">⏸️ PAUSE</button>
+      </div>
+    </div>
+
+    <div id="boss-hud" class="boss-hud-container hidden">
+      <div id="boss-title" class="boss-label">⚠️ OVERLORD FLAGSHIP APPROACHING ⚠️</div>
+      <div class="boss-bar-wrapper">
+        <div id="boss-bar-fill" class="boss-bar-fill"></div>
+      </div>
+    </div>
+
+    <div id="menu-overlay" class="menu-overlay">
+      <div class="menu-content">
+        <h1 id="menu-header" class="pulse-title">GALACTIC DEFENDER</h1>
+        <p id="menu-sub" class="subtitle-glow">SPEND CREDITS TO UNLOCK ADVANCED BLUEPRINTS</p>
+
+        <div class="menu-wallet-container">
+          <span>WALLET BALANCE:</span>
+          <span id="menu-wallet-amount" class="credit-glow-large">0 GC</span>
+        </div>
+
+        <div id="hangar-container" class="hangar-wrapper">
+          
+          <div class="ship-card active unlocked" data-ship="INTERCEPTOR">
+            <div class="ship-preview color-cyan design-arrow"></div>
+            <h3>INTERCEPTOR</h3>
+            <span class="tag tag-cyan">SPEEDSTER</span>
+            <p>Sleek swept-wing delta frame built for precision speed runs.</p>
+            <div class="stat-line">SPD: ★★★★★ | SHD: ★★★☆☆</div>
+            <button class="shop-action-btn">EQUIP</button>
+          </div>
+
+          <div class="ship-card locked" data-ship="VANGUARD" data-cost="500">
+            <div class="lock-overlay">🔒 500 GC</div>
+            <div class="ship-preview color-gold design-shield"></div>
+            <h3>VANGUARD</h3>
+            <span class="tag tag-gold">ARMORED</span>
+            <p>Heavy quad-thruster dreadnought maximizing shield energy caps.</p>
+            <div class="stat-line">SPD: ★★★☆☆ | SHD: ★★★★★</div>
+            <button class="shop-action-btn">BUY Blueprint</button>
+          </div>
+
+          <div class="ship-card locked" data-ship="RAIDER" data-cost="1200">
+            <div class="lock-overlay">🔒 1200 GC</div>
+            <div class="ship-preview color-pink design-trident"></div>
+            <h3>RAIDER</h3>
+            <span class="tag tag-pink">STRIKER</span>
+            <p>Trident-pronged aggressive hull prioritizing high-rate weapons.</p>
+            <div class="stat-line">SPD: ★★★★☆ | SHD: ★★★★☆</div>
+            <button class="shop-action-btn">BUY Blueprint</button>
+          </div>
+
+        </div>
+
+        <div class="menu-btn-group">
+          <button id="menu-mute-btn" class="arcade-btn" style="border-color: var(--neon-gold); box-shadow: 0 0 18px rgba(224,160,0,0.15);">🎵 AUDIO ON</button>
+          <button id="menu-btn" class="arcade-btn intense-btn">LAUNCH FLIGHT</button>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="game" width="800" height="600"></canvas>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
