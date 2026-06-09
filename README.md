@@ -9,7 +9,7 @@ Take control of modular starfighters, maintain high-speed kill streaks, collect 
 ## 🚀 Live Demo
 
 🎮 **Play Now:**  
-👉 https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME/
+👉 [https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME/](https://shraone-7.github.io/Galactic-Defender-Space-Shooter/)
 
 ---
 
