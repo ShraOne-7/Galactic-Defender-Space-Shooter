@@ -16,7 +16,6 @@ Take control of modular starfighters, maintain high-speed kill streaks, collect 
 ## 📸 Screenshots
 
 ### Main Hangar
-Add your screenshot here:
 https://github.com/ShraOne-7/Galactic-Defender-Space-Shooter/blob/4a3491e453a8acc17e84fa8146babe06da51ab60/Main%20Hanger.png
 
 ### Gameplay
