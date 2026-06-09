@@ -19,17 +19,20 @@ Take control of modular starfighters, maintain high-speed kill streaks, collect 
 Add your screenshot here:
 
 ```md
-![Hangar Screen](screenshots/hangar.png)
+![Hangar Screen](<img width="1918" height="901" alt="Main Hanger" src="https://github.com/user-attachments/assets/673c3ba7-8edf-4666-8e7a-5503219b0a24" />
+)
 ```
 
 ### Gameplay
 ```md
-![Gameplay](screenshots/gameplay.png)
+![Gameplay](<img width="1911" height="878" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/849d99df-235c-405d-bee3-a35319bcdd26" />
+)
 ```
 
 ### Ship Selection
 ```md
-![Ships](screenshots/ships.png)
+![Ships](<img width="1918" height="901" alt="Main Hanger" src="https://github.com/user-attachments/assets/32dd8e3b-f4b7-4d26-b1ba-d1535efa4406" />
+)
 ```
 
 ---
