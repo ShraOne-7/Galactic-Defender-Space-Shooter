@@ -17,22 +17,11 @@ Take control of modular starfighters, maintain high-speed kill streaks, collect 
 
 ### Main Hangar
 Add your screenshot here:
-
-```md
-![Hangar Screen](<img width="1918" height="901" alt="Main Hanger" src="https://github.com/user-attachments/assets/673c3ba7-8edf-4666-8e7a-5503219b0a24" />
-)
-```
+https://github.com/ShraOne-7/Galactic-Defender-Space-Shooter/blob/4a3491e453a8acc17e84fa8146babe06da51ab60/Main%20Hanger.png
 
 ### Gameplay
 https://github.com/ShraOne-7/Galactic-Defender-Space-Shooter/blob/dd4d3f1df0feb2dc0dae1ff9a8131bc4c13dbb66/Gameplay.png
 
-### Ship Selection
-```md
-![Ships](<img width="1918" height="901" alt="Main Hanger" src="https://github.com/user-attachments/assets/32dd8e3b-f4b7-4d26-b1ba-d1535efa4406" />
-)
-```
-
----
 
 # ✨ Features
 
