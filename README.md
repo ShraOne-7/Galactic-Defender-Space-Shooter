@@ -153,7 +153,6 @@ Galactic-Defender/
 ├── screenshots/
 │   ├── hangar.png
 │   ├── gameplay.png
-│   └── ships.png
 │
 └── README.md
 ```
