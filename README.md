@@ -25,7 +25,7 @@ Add your screenshot here:
 
 ### Gameplay
 ```md
-![Gameplay](<img width="1911" height="878" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/849d99df-235c-405d-bee3-a35319bcdd26" />
+![Gameplay]([<img width="1911" height="878" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/849d99df-235c-405d-bee3-a35319bcdd26" />](https://github.com/ShraOne-7/Galactic-Defender-Space-Shooter/blob/main/Gameplay.png?raw=true)
 )
 ```
 
